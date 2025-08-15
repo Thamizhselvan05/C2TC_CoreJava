@@ -1,0 +1,17 @@
+package Day3.encapsulation;
+
+public class Encapsulation_Demo {
+	
+		public static void main(String[] args) {
+			
+			//object creation 
+			OopsConceptDemo obj = new OopsConceptDemo();
+			obj.setSerialNum(101);
+			obj.setName("Pooja");
+			obj.setAge(20);
+			System.out.println(obj);
+			
+		}
+
+
+}
