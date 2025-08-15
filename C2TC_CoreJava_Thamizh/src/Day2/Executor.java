@@ -11,8 +11,9 @@ public class Executor {
 		p.setCity("puducherry");
 		
 		
-		System.out.println("Id: " 
-		);
+		System.out.println(p.toString());
+		System.out.println(p);
+		
 	}
 	
 }
