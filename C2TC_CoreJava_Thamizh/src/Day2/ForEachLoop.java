@@ -1,6 +1,6 @@
 package Day2;
 
-public class For_Each_Loop {
+public class ForEachLoop {
 	public static void main(String[] args) {
 		int a[]= {10,20,30,40,50};	
 		System.out.println("Interger Array :");	
