@@ -1,8 +1,8 @@
 package Day3.constructor;
 
-	import java.util.Scanner;
+import java.util.Scanner;
 
-	public class constructor_Demo {
+public class constructor_Demo {
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
