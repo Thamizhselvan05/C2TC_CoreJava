@@ -1,4 +1,4 @@
-package Day8.neastedinterfaces;
+package Day8.interfaces.neastedinterfaces;
 
 public class NestedInterfaceClass implements MyInterface.MyInnerInterface {
 	
