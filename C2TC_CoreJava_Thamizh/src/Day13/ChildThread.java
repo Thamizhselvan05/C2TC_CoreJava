@@ -5,7 +5,7 @@ public class ChildThread extends Thread {
 	private int n;
 	private String msg;
 
-	// Constructor
+	
 	public ChildThread(int n, String msg) {
 		this.n = n;
 		this.msg = msg;
