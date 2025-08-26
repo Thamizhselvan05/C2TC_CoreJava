@@ -28,24 +28,24 @@ public class Executor {
 
 				intArr[i] = sc.nextInt();
 			}
-			//validate marks
+			
 			if (Service.validateMarks(intArr)) {
 
 				sOne.setMarks(intArr);
 				sOne.setPer(Service.calculatePercentage(intArr));
 
 			}
-			//display student details
+			
 			System.out.println("Student details: " + sOne);
 
 		} catch (InvalidMarksException e) {
-			// e.printStackTrace();
+			
 			System.err.println(e.getMessage());
 		}
 
 		catch (NullPointerException | ArithmeticException |InputMismatchException e) {
 
-			// e.printStackTrace();
+			
 			System.err.println(e.getMessage());
 		}
 
