@@ -9,19 +9,22 @@ public class Executor {
 		try {
 			@SuppressWarnings("resource")
 			Scanner sc = new Scanner(System.in);
-			//Accept student details
+
 			Student sOne = new Student();
-			System.out.println();
+			
 			System.out.println("Enter the roll no: ");
 			int rollNo = sc.nextInt();
 			sOne.setRollNo(rollNo);
+			
 			System.out.println("Enter your name: ");
 			String name = sc.nextLine();
 			sc.nextLine();
 			sOne.setName(name);
+			
 			System.out.println("Enter the no.of subjects ");
 			int sub = sc.nextInt();
 			sOne.setNoOfSubjects(sub);
+			
 			System.out.println("enter the marks for " + sub);
 			int[] intArr = new int[sub];
 			for (int i = 0; i < sub; i++) {
@@ -44,8 +47,6 @@ public class Executor {
 		}
 
 		catch (NullPointerException | ArithmeticException |InputMismatchException e) {
-
-			
 			System.err.println(e.getMessage());
 		}
 
